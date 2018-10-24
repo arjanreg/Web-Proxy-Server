@@ -120,7 +120,7 @@ public class ProxyThread extends Thread
 		                	    String cacheURL=scanner.nextLine();
 		                	    if(cacheURL.equals(httpQueryString))
 		                	    {
-		                	    	cacheHit=true;
+		                	    	cacheHit = true;
 		                	    }
 	                	    }
 	                	    scanner.close();
