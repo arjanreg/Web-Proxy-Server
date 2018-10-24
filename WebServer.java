@@ -7,7 +7,7 @@ import java.util.* ;
 
 public final class Webserver
 {
-	//Allocating a buffer size to read from FileInputStream
+		//Allocating a buffer size to read from FileInputStream
     private static final int BUFFER_SIZE = 32768;
     
     //Main-method
@@ -186,11 +186,7 @@ public final class Webserver
              if (clientSocket != null)
              {
                  clientSocket.close();
-             }
-
-			
+             }	
 		}
-		
 	}
-	
 }
